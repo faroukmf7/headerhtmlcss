@@ -18,7 +18,32 @@
         </div>
     </div>
     <div class="main">
-        <h1>hello this is the home page</h1>
+        <form method="post" action="/">
+        <label for="First Name">
+            Enter First Name
+        </label>
+        <input name="fname" type="text" placeholder="enter you firstname">
+        <br>
+        <label for="password">enter you password</label>
+        <input type="password"  name="password" placeholder="enter your password"><br><br>
+        <label for="number">your number</label>
+        <input type="number" name="phonenumber"><br><br>
+        <label for="email">enter your email</label>
+        <input type="email" name="email"><br><br>
+        <label for="male">male:</label>
+        <input type="checkbox" name="gender">
+         <label for="female">female:</label>
+        <input type="checkbox" name="gender"><br><br>
+        <label for="country">country</label>
+        <select name="country">
+            <option value="gh">ghana</option>
+            <option value="ng">nigeria</option>
+            <option value="to">togo</option>
+            <option value="us">us</option>
+        </select>
+
+        <input type="submit">
+    </form>
     </div>
     <div class="footer"></div>
 </body>
